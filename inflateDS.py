@@ -33,7 +33,7 @@ def inflate_file(original_file_path, target_size_gb):
 
 def main():
     # Example usage: Inflate the file to 1GB
-    original_file_path = '/Users/antonnaslund/Documents/skola/dataengineering/MillionSongSubset_aggregated.csv'
+    original_file_path = '/home/ubuntu/length-tempo-by-year/MillionSongSubset_aggregated.csv'
     target_size_gb = 4  # Modify this as needed
     inflate_file(original_file_path, target_size_gb)
 
